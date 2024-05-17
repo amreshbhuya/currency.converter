@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+h1{
+    margin-bottom: 8vmin;
+    margin-left:5vmin;
+    margin-right: 5vmin;
+    font-size:5vmin;
+    display: flex;
+    width:50vmin;
+    justify-content: center;
+    align-items: center;
+    color: rgb(1, 1, 52);
+
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(231, 206, 174);
+    box-shadow: 0 0 30vmin black;
+}
+.container{
+    background-color: rgb(245, 239, 231);
+    padding:6vmin;
+    border-radius: 4vmin;
+    min-height: 45vh;
+    width: 60vh;
+    box-shadow: 0 0 5vmin black;
+
+}
+form{
+    margin: 2vmin 0 2vmin 0;
+    
+   
+}
+
+form select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 2vmin;
+    
+
+}
+form input{
+    border: .001vmin solid rgb(150, 150, 150);
+    font-size: 4vmin;
+    height: 7vmin;
+    padding-left:1vmin;
+    box-shadow: 0 0 5vmin rgb(167, 167, 167);
+    background-color: aliceblue;
+
+
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4vmin;
+}
+.select-container img{
+    
+    width:11vmin;
+    height:10vmin;
+    cursor: pointer;
+    display: flex ;
+    justify-content: center;
+    padding: 2vmin;
+}
+.select-container{
+    display: flex;
+    width:25vmin;
+    height:9vmin;
+    justify-content: center;
+    border-radius: 2vmin;
+    align-items: center;
+    border: 0.1vmin solid rgb(147, 147, 147);
+    box-shadow: 0 0 4vmin rgb(37, 37, 37);
+
+}
+.dropdown i{
+    font-size: 5vmin;
+    margin-top:5.5vmin;
+    text-shadow: 0 0 5vmin rgb(255, 255, 255);
+    color: rgb(7, 36, 42);
+    
+}
+.select-container select{
+    font-size: 3vmin;
+    width:20vmax;
+    color: #061d1e;
+
+}
+.msg{
+    margin: 10vmin 0vmin 4vmin 0vmin;
+    font-size: 3.2vmin;
+    display: flex;
+    width:60vmin;
+    height:10vmin;
+    justify-content: center;
+    border-radius: 3vmin;
+    align-items: center;
+    border: 0.001vmin solid rgb(147, 147, 147);
+    box-shadow: 0 0 3vmin rgb(37, 37, 37);
+    color: #0a1422;
+
+}
+form button{
+    height: 8vmin;
+    margin-top:3vmin;
+    background-color: rgb(0, 13, 49);
+    box-shadow: 0 0 3vmin rgb(97, 97, 97);
+    color:white;
+    font-size:4vmin;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(13, 8, 107);
+    box-shadow: 0 0 3vmin rgb(0, 0, 0);
+}
+select{
+    height:7vmin;
+    background-color:transparent;
+    text-shadow: 0 0 1vmin rgb(255, 255, 255);
+    color:rgb(11, 0, 60);
+    cursor: pointer;
+    font-size: 3vmin; 
+    
+}
+.to,.from,p{
+    font-size:4vmin;
+    color:rgb(11, 0, 60);
+    text-shadow: 0 0 2vmin rgb(227, 227, 227);
+}
+option{
+    background-color: rgb(0, 0, 0);
+    font-size:4.5vmin;
+    color: aliceblue;
+    cursor: pointer;
+    text-shadow: 0 0 5vmin rgb(185, 185, 185);
+}
